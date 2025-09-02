@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Alice&display=swap');
+
+body {
+    background-image: url('https://i.pinimg.com/originals/0a/76/6f/0a766f6015ea33b18f312856ac59c6e0.gif');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Alice', serif;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 1px;
+    font-family: 'Allura', cursive;
+    color: #234556;
+    font-size: 100px;
+}
+
+p {
+    font-family: 'Alice', serif;
+    font-size: 20px;
+    margin-top: 1px;
+    margin-bottom: 2px;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 10px auto;
+    border: 5px solid #234556;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    background-color: #B7D5F1;
+}
+
+td {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #558FB7;
+}
+
+@media (max-width: 1200px) {
+    td {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media (max-width: 800px) {
+    td {
+        width: 15px;
+        height: 15px;
+    }
+}
+
+.parede {
+    background-color: #546e79;
+}
+
+.caminho {
+    background-color: #FDCED9;
+}
+
+.jogador {
+    background-color: #D0A5C8;
+}
+
+.saida {
+    background-color: #D0A5C8;
+}
+
+button {
+    padding:10px 20px;
+    margin-top:10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #da9cbd;
+    color: white;
+    cursor: pointer;
+}

@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Alice&display=swap');
+
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Allura', cursive;
+  background-image: url('https://i.pinimg.com/originals/0a/76/6f/0a766f6015ea33b18f312856ac59c6e0.gif');
+  background-repeat: no-repeat;
+  background-size: cover;         
+  background-position: center;
+}
+
+.container {
+  background: linear-gradient(135deg, #d0a5c8, #fdced9, #b7d5f1);
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  max-width: 400px;
+  width: 100%;
+}
+
+h1 {
+  color: #346e88;
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+
+h2 {
+  color: #346e88;
+  margin-bottom: 20px;
+  font-family: 'Alice', serif;
+  font-size: 20px;
+}
+
+
+input {
+  width: 80%;
+  padding: 12px;
+  border: 2px solid #eeabd0;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #346e88;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #558fb7;
+}
